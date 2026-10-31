@@ -1,0 +1,41 @@
+cff-version: 1.2.0
+message: "If you use this repository, please cite this supplementary analysis package and the Conwell et al. (2024) primary dataset."
+type: software
+title: "AI divergence reveals the shape of human cognition: supplementary data and reproducible visual-model reanalysis"
+authors:
+  - family-names: Branda
+    given-names: Francesco
+  - family-names: Ahmed
+    given-names: Mohamed Mustaf
+  - family-names: Ceccarelli
+    given-names: Giancarlo
+  - family-names: Scarpa
+    given-names: Fabio
+  - family-names: Ciccozzi
+    given-names: Massimo
+version: 1.0.0
+date-released: 2026-10-31
+keywords:
+  - cognitive neuroscience
+  - artificial intelligence
+  - neural alignment
+  - representational similarity analysis
+  - reproducibility
+references:
+  - type: article
+    authors:
+      - family-names: Conwell
+        given-names: Colin
+      - family-names: Prince
+        given-names: Jacob S.
+      - family-names: Kay
+        given-names: Kendrick N.
+      - family-names: Alvarez
+        given-names: George A.
+      - family-names: Konkle
+        given-names: Talia
+    title: "A large-scale examination of inductive biases shaping high-level visual representation in brains and machines"
+    journal: Nature Communications
+    volume: "15"
+    year: 2024
+    doi: 10.1038/s41467-024-53147-y

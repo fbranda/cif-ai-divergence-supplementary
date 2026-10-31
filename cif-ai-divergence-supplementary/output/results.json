@@ -1,0 +1,116 @@
+{
+  "source": "Conwell et al. 2024 Nature Communications doi:10.1038/s41467-024-53147-y",
+  "input_file": "source_data.xlsx",
+  "n_models_full": 55,
+  "n_models_matched": 52,
+  "class_counts_full": {
+    "CNN": 34,
+    "Transformer": 21
+  },
+  "class_counts_adjusted": {
+    "CNN": 31,
+    "Transformer": 21
+  },
+  "missing_accuracy": [
+    "eca_nfnet_l0",
+    "googlenet",
+    "semnasnet_100"
+  ],
+  "notes": "Model is unit of inference; per-subject results averaged. Exploratory secondary reanalysis, not original mixed-domain 21-model regression.",
+  "veRSA": {
+    "group_means": {
+      "CNN": 0.6713729227731356,
+      "Transformer": 0.661492838143949
+    },
+    "unadjusted_difference_transformer_minus_CNN": -0.009880084629186658,
+    "welch_p": 0.10122959429061808,
+    "welch_CI95": [
+      -0.021813831665495817,
+      0.0020536624071224984
+    ],
+    "welch_df": 29.93649875179719,
+    "adjusted_N": 52,
+    "adjusted_R2": 0.16152724244275962,
+    "adjusted_coef": {
+      "const": 0.6695291814451871,
+      "top1_10": 0.01045900226438877,
+      "transformer": -0.013403903263322775
+    },
+    "adjusted_p_HC3": {
+      "const": 0.0,
+      "top1_10": 0.05382031225879356,
+      "transformer": 0.05074825535688663
+    },
+    "adjusted_SE_HC3": {
+      "const": 0.0026893172895268618,
+      "top1_10": 0.005424006080718299,
+      "transformer": 0.00686112137855917
+    },
+    "adjusted_CI95_HC3": {
+      "const": [
+        0.6642582164147136,
+        0.6748001464756607
+      ],
+      "top1_10": [
+        -0.00017185430574534824,
+        0.021089858834522888
+      ],
+      "transformer": [
+        -0.026851454058856555,
+        4.364753221100352e-05
+      ]
+    },
+    "interaction_exploratory_beta": -0.014335142401537382,
+    "interaction_exploratory_p": 0.39449751859071314,
+    "n_models_full": 55,
+    "n_models_adjusted": 52
+  },
+  "cRSA": {
+    "group_means": {
+      "CNN": 0.36941391651505273,
+      "Transformer": 0.32866548072246216
+    },
+    "unadjusted_difference_transformer_minus_CNN": -0.040748435792590576,
+    "welch_p": 0.0013946932898105798,
+    "welch_CI95": [
+      -0.06480633749249118,
+      -0.016690534092689967
+    ],
+    "welch_df": 43.39558692413181,
+    "adjusted_N": 52,
+    "adjusted_R2": 0.16274319362889045,
+    "adjusted_coef": {
+      "const": 0.3674978449246348,
+      "top1_10": -0.004108547692887696,
+      "transformer": -0.03672385752618286
+    },
+    "adjusted_p_HC3": {
+      "const": 0.0,
+      "top1_10": 0.7286052753148328,
+      "transformer": 0.012992161517019585
+    },
+    "adjusted_SE_HC3": {
+      "const": 0.008336574371630831,
+      "top1_10": 0.011840829001936577,
+      "transformer": 0.01478425638134146
+    },
+    "adjusted_CI95_HC3": {
+      "const": [
+        0.35115845940179874,
+        0.3838372304474708
+      ],
+      "top1_10": [
+        -0.02731614608378074,
+        0.019099050698005347
+      ],
+      "transformer": [
+        -0.06570046757181859,
+        -0.007747247480547132
+      ]
+    },
+    "interaction_exploratory_beta": -0.056951584153148764,
+    "interaction_exploratory_p": 0.0028396574674754305,
+    "n_models_full": 55,
+    "n_models_adjusted": 52
+  }
+}
